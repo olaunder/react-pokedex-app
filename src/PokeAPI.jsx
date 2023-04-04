@@ -22,7 +22,6 @@ export default function PokeAPI() {
         setLoading(true);
         let res = await axios.get(`https://pokeapi.co/api/v2/pokemon/${searchQuery}`);
         setImg(res.data.sprites.front_default);
-        console.log(res);
         setId(res.data.id);
         setType(res.data.types[0].type.name);
         setHeight(res.data.height*10);
