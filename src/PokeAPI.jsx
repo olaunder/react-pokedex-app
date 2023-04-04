@@ -15,7 +15,7 @@ export default function PokeAPI() {
 
 
   useEffect(() => {
-    document.title = 'My Page Title';
+    document.title = 'Pokedex App';
     async function getData() {
 
       try {
