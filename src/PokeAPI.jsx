@@ -15,6 +15,7 @@ export default function PokeAPI() {
 
 
   useEffect(() => {
+    document.title = 'My Page Title';
     async function getData() {
 
       try {
